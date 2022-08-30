@@ -1,0 +1,9 @@
+.notes{
+    height: 100%;
+    margin-top: 25px !important;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 21px;
+}

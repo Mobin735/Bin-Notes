@@ -1,0 +1,46 @@
+.add_notes {
+    background-color: blanchedalmond;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.add_notes i {
+    margin-top: 5px;
+    font-size: 29px;
+    height: fit-content;
+}
+
+.add_title {
+    color: brown;
+    font-size: 20px;
+    width: 92%;
+    border: none;
+}
+
+.add_title:focus{
+    font-size: 20px;
+    color: rgb(107, 40, 40);
+    outline: none;
+    border: none;
+}
+
+.add_title::placeholder{
+    font-size: 20px;
+    color: rgb(107, 40, 40);
+}
+
+.add_notes p {
+    font-size: 34px;
+    margin: 0;
+}
+
+.modal-body{
+    border: none;
+}
+
+.modal-body:focus{
+    outline: none;
+}
